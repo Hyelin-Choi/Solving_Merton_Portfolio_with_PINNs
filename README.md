@@ -18,8 +18,8 @@ The primary goal was to solve the Optimal Portfolio Value Function Partial Diffe
 
 #### Merton's PDE (Optimal Value Function PDE)
 The Optimal Value Function, $`V^{*}(t,W_{t})`$, satisfies the following PDE:
-$$\frac{\partial V^{*}}{\partial t}-\frac{(\mu-r)^{2}}{2\sigma^{2}}\cdot\frac{(\frac{\partial V^{*}}{\partial W_{t}})^{2}}{\frac{\partial^{2}V_{t}^{*}}{\partial W_{t}^{*}}}+\frac{\partial V^{*}}{\partial W_{t}}\cdot r\cdot W_{t}+\frac{\gamma}{1-\gamma}\cdot(\frac{\partial V^{*}}{\partial W_{t}})^{\frac{\gamma-1}{\gamma}}=\rho V^{*}.$$
-The terminal condition is $V^{*}(T,W_{T})=\epsilon^{\gamma}\cdot\frac{W_{T}^{1-\gamma}}{1-\gamma}$.
+$`\frac{\partial V^{*}}{\partial t}-\frac{(\mu-r)^{2}}{2\sigma^{2}}\cdot\frac{(\frac{\partial V^{*}}{\partial W_{t}})^{2}}{\frac{\partial^{2}V_{t}^{*}}{\partial W_{t}^{*}}}+\frac{\partial V^{*}}{\partial W_{t}}\cdot r\cdot W_{t}+\frac{\gamma}{1-\gamma}\cdot(\frac{\partial V^{*}}{\partial W_{t}})^{\frac{\gamma-1}{\gamma}}=\rho V^{*}.`$
+The terminal condition is $`V^{*}(T,W_{T})=\epsilon^{\gamma}\cdot\frac{W_{T}^{1-\gamma}}{1-\gamma}`$.
 
 #### Key Constants Used
 * $\mu = 0.07$ (drift / expected return on stock)
