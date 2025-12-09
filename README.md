@@ -53,4 +53,4 @@ The 3D surface plots below compare the analytical **Exact Solution** and the **P
 
 ### Collaboration
 
-This work was conducted **With Jaehoon Yoo** (Sungkyunkwan University).
+This work was conducted **With Jaehoon Yoo** (Indiana Bloomington University, Department of Mathematics).
