@@ -44,9 +44,7 @@ The terminal condition is $V^{*}(T,W_{T})=\epsilon^{\gamma}\cdot\frac{W_{T}^{1-\
 
 The 3D surface plots below compare the analytical **Exact Solution** and the **PINN Solution**, highlighting the **Absolute Error** between the two.
 
-| Exact Solution | PINN Solution | Absolute Error |
-| :---: | :---: | :---: |
-| ![3D surface plot comparing Exact Solution, PINN Solution, and Absolute Error](image_9fa9fd.png) | ![3D surface plot comparing Exact Solution, PINN Solution, and Absolute Error](image_9fa9fd.png) | ![3D surface plot comparing Exact Solution, PINN Solution, and Absolute Error](image_9fa9fd.png) |
+<img src="https://github.com/Hyelin-Choi/Solving_Merton_Portfolio_with_PINNs/blob/main/3d_plots.png">
 
 * **Image Caption:** Comparison of the Exact Solution, the PINN Solution, and the Absolute Error for the Optimal Value Function $V^{*}(t, W_t)$.
 
